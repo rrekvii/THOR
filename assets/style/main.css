@@ -1,0 +1,190 @@
+@import url("./normalize.css");
+@import url("./font.css");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans";    
+    }
+
+body {
+    background: #1D1D1D;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1168px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 36px;
+    height: 828px;
+    width: 100%;
+    background-image: url("/assets/image/bg1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.top {
+    display: flex;
+    color: #A5A5A5;
+    align-items: center;
+    justify-content: space-between;
+}
+.top-txt {
+    font-weight: 450;
+    font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #A5A5A5;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    
+    border-left: 1px solid #A5A5A5;
+
+    margin-left: 10px;
+    padding-left: 10px;
+
+    font-family: 'Futura PT Cond';
+}
+.top-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;   
+}
+.top-nav__items {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 150%;
+    color: #A5A5A5;
+    text-decoration: none;
+    margin-right:25px ;
+}
+.top-r__button {
+    padding: 10px 15px;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    border-radius: 3px;
+    border: 1px solid #FF4000;
+    background: none;
+    margin-right: 19px;
+}
+.top-r__link {
+    font-weight: 600;   
+    font-size: 18px;
+    line-height: 150%;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.bottom-title {
+
+}
+.bottom-buy__s {
+    background: #FF4000;
+    border-radius: 3px;
+    color: #FFFFFF;
+    width: 258px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    border: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom-lang {
+    outline: none;
+    padding: 2px 21px 2px 43px  ;
+    border: 1px solid #A5A5A5;
+
+    margin-top: 53px;
+
+
+    
+    background: none;    
+    font-size: 18px;
+    line-height: 150%;
+    color: #A5A5A5;
+}
+option {
+    background: #1D1D1D;
+}
+.bottom-lang::after {
+    content: url("../assets/icons/arrow.svg");
+    width: 10px;
+    height: 10px;   
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bottom-wrap {
+    margin-top: 132px;
+}
+.bottom-buy__s {
+    margin-top: 53px;
+}
+.bottom-select__img {
+    position: absolute;
+    top:58px ;
+    left:14px ;
+}
+.bottom-select {
+    position: relative;
+}
+.electronic {
+    padding-top:210px;
+}
+.electronic-left {
+    margin-right: 39px;
+    max-width: 473px;
+}
+.electronic-trubaThora {
+    max-width: 100%;
+}
+.electronic-container {
+    display: flex;
+}
+.electronic-main_txt {
+    font-family: 'Futura PT Cond';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.electronic-thor {
+    color: #FF4000;
+    font-family: 'Futura PT Cond';
+}
+.electronic-predMain {
+    margin-top: 21px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #A5A5A5;
+}
+.electronic-txt {
+    margin-top: 28px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+.electronic-right {
+    max-width: 497px;
+}
+.zakaz {
+    padding-top: 169px;
+}

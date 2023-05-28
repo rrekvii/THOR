@@ -1,0 +1,15 @@
+
+@font-face {
+    font-family: "Open Sans";
+    src: url('../fonts/OpenSans-SemiBold.woff') format('woff');
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  
+@font-face {
+  font-family: "Futura PT Cond";
+  src: url('../fonts/FuturaPTCond-Medium.woff') format('woff');
+  font-style: normal;
+  font-weight: 500;
+}
